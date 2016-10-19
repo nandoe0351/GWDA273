@@ -1,0 +1,33 @@
+body {
+	width: 50%;
+	margin: 0 auto;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	border: 1px solid black;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: purple;
+}
+
+#logo {
+	font-size: 48px;
+	text-transform: lowercase;
+}
+
+.headline {
+	letter-spacing: 2px;
+	color: orange;
+}
+
+#author {
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-size 15px;
+}
+
+#date {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 
+	Tahoma, sans-serif;
+	font-size: 10px;
+}
