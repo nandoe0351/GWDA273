@@ -181,13 +181,30 @@ header {
   overflow: hidden;
 
 }
+	
+#hosts {
+	-webkit-filter: contrast(4);
+   filter: contrast(4);
+   animation: hosts 5s infinite;
+  }
+	
   #gifts {
   -webkit-filter: contrast(4);
    filter: contrast(4);
-   animation: nissan-logo 5s infinite;
+   animation: gifts 5s infinite;
   }
   
   @keyframes gifts {
+	0% {
+		filter: saturate(0);
+	}
+	50% {
+		filter: saturate(3);
+	}
+	100% {
+		filter: saturate(0);
+	}
+	  @keyframes hosts {
 	0% {
 		filter: saturate(0);
 	}
@@ -217,7 +234,7 @@ header {
 
   <header>
 
-    <h1>Jane & John</h1>
+    <h1 id="hosts">Jane & John</h1>
     <br>
     <h3 id="march">March 11, 2017</h3>
 
